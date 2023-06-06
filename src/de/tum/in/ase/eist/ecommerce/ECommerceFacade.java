@@ -1,9 +1,9 @@
 package de.tum.in.ase.eist.ecommerce;
 
 public class ECommerceFacade {
-    private OrderController orderController;
-    private AdvertisementController advertisementController;
-    private ShippingController shippingController;
+    private final OrderController orderController;
+    private final AdvertisementController advertisementController;
+    private final ShippingController shippingController;
 
     public ECommerceFacade() {
         orderController = new OrderController();
@@ -30,7 +30,7 @@ public class ECommerceFacade {
     }
 
     public void shipOrder(Order order, String adress) {
-        Shipping ship = shippingController.createShipping(adress);
+        shippingController.createShipping(adress);
         shippingController.shipOrder(order);
 
     }

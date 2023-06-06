@@ -9,7 +9,7 @@ public class Cinema {
 	private final String address;
 	private final String name;
 	private final int id;
-	private ECommerceFacade eCommerceFacade;
+	private final ECommerceFacade eCommerceFacade;
 
 	public Cinema(String address, String name) {
 		this.address = address;
