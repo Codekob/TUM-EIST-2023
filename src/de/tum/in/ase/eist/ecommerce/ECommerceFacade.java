@@ -25,8 +25,8 @@ public class ECommerceFacade {
 
     }
 
-    public void retrieveLatestOrder(int id) {
-        orderController.retrieveLatestOrder(id);
+    public Order retrieveLatestOrder(int id) {
+        return orderController.retrieveLatestOrder(id);
     }
 
     public void shipOrder(Order order, String adress) {
