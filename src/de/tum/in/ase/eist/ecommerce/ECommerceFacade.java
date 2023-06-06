@@ -29,8 +29,8 @@ public class ECommerceFacade {
         return orderController.retrieveLatestOrder(id);
     }
 
-    public void shipOrder(Order order, String adress) {
-        shippingController.createShipping(adress);
+    public void shipOrder(Order order, String address) {
+        order.setShipping(shippingController.createShipping(address));
         shippingController.shipOrder(order);
 
     }
