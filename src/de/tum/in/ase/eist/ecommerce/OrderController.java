@@ -5,8 +5,7 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-//TODO 1 Add a new class ECommerceFacade in the package ecommerce.
-//TODO 2 Implement all public methods of the OrderController in the facade.
+
 public class OrderController {
 
     private static final int MAX_POPCORN_PRICE = 12;

@@ -2,7 +2,7 @@ package de.tum.in.ase.eist.ecommerce;
 
 import java.util.concurrent.ThreadLocalRandom;
 
-//TODO 3 Implement all public methods of the the AdvertisementController in the facade.
+
 public class AdvertisementController {
 
 	private static final int MAX_NUMBER_OF_ADVERTISEMENTS = 42;

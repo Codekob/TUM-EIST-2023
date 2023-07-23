@@ -1,6 +1,5 @@
 package de.tum.in.ase.eist.ecommerce;
 
-//TODO 4 Implement a new shipOrder method in the ECommerceFacade according to the problem statement on Artemis.
 public class ShippingController {
 
 	public void shipOrder(Order order) {

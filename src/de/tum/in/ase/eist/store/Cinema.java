@@ -2,7 +2,7 @@ package de.tum.in.ase.eist.store;
 
 import de.tum.in.ase.eist.ecommerce.*;
 
-// TODO 6 Remove all associations to the different controllers and use the facade instead.
+
 public class Cinema {
 
 	private static int count = 1;

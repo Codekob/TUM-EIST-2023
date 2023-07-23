@@ -4,7 +4,7 @@ import de.tum.in.ase.eist.ecommerce.ECommerceFacade;
 import de.tum.in.ase.eist.ecommerce.Order;
 
 
-// TODO 5 Remove all associations to the different controllers and use the facade instead.
+
 public class BookStore {
 
 	private static int count = 1;
